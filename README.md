@@ -1,1 +1,1 @@
-# Life-Impact-Outreach-and-Ministry-World-Wide.
+# Life-Impact-Outreach-and-Ministry-.
