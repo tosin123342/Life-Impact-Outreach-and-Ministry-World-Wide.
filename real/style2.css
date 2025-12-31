@@ -1,0 +1,131 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+body { line-height: 1.6; }
+
+/* Navigation */
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover { color: #FF5733; }
+
+/* Header */
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #f2f2f2;
+}
+header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+header p { font-size: 1.2rem; color: #555; }
+
+/* Top Section */
+.top-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+.top-image-container { flex: 1 1 400px; text-align: center; }
+.responsive-img { width: 100%; max-width: 500px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
+.top-text { flex: 1 1 300px; }
+.whatsapp-link {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+.whatsapp-link:hover { transform: scale(1.05); }
+.donate-btn {
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.donate-btn:hover { background-color: #e64a19; }
+
+/* Sections */
+.section { padding: 2rem 1rem; text-align: center; }
+.section h2 { margin-bottom: 15px; color: #333; }
+.section p { max-width: 600px; margin: 0 auto 15px; color: #555; }
+
+/* Donation Progress */
+.progress-container { width: 80%; background-color: #ddd; border-radius: 20px; margin: 0 auto; overflow: hidden; }
+.progress-bar {
+    width: 35%;
+    height: 20px;
+    background-color: #FF5733;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    border-radius: 20px;
+}
+
+/* Donation Ranks */
+.donation-box {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 400px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+form button {
+    padding: 10px;
+    background-color: #25D366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover { background-color: #1ebe5d; }
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .top-section { flex-direction: column; }
+    .donation-box { width: 90%; }
+}
+
+
+
+
+

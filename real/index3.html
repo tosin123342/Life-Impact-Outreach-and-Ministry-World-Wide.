@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Impact Outreach and Ministry</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#vision">Vision</a>
+    <a href="#mission">Mission</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Header -->
+<header id="home">
+    <h1>Life Impact Outreach and Ministry</h1>
+    <p>Touching lives, restoring hope</p>
+</header>
+
+<!-- Top Section -->
+<section class="top-section">
+    <div class="top-image-container">
+        <img src="https://convoyofhope.org/wp-content/uploads/2023/09/02-27-24-Sudan-DS-Conflict-6-scaled-763x1024.jpg" 
+             alt="Helping people in need through outreach" 
+             class="responsive-img">
+    </div>
+    <div class="top-text">
+        <h2>Make a Difference Today</h2>
+        <p>
+            Your support helps us reach communities, provide aid, 
+            and restore hope to lives in need.<br>
+            <strong>CONTACT US: 📞 08166588166</strong>
+        </p>
+        <a class="whatsapp-link"
+           href="https://wa.me/2348166588166?text=Hello%20Life%20Impact%20Outreach,%20I%20would%20like%20to%20support%20your%20mission."
+           target="_blank"
+           onclick="thankYou()">
+           💬 Chat on WhatsApp
+        </a>
+        <button class="donate-btn" onclick="toggleBankDetails()">Donate Now</button>
+        <div id="bankDetails" style="display:none; margin-top:10px;">
+            <p><strong>Union Bank</strong></p>
+            <p>Account Number: 0226507676</p>
+            <p>Account Name: Oluwatosin Destiny Ayodele</p>
+        </div>
+    </div>
+</section>
+
+<!-- Donation Progress -->
+<section class="section">
+    <h2>Donation Progress</h2>
+    <div class="progress-container">
+        <div class="progress-bar">35% Raised</div>
+    </div>
+</section>
+
+<!-- Vision Section -->
+<section id="vision" class="section">
+    <h2>Our Vision</h2>
+    <p>To create a compassionate world where every individual has access to care, hope, and opportunity.</p>
+</section>
+
+<!-- Mission Section -->
+<section id="mission" class="section">
+    <h2>Our Mission</h2>
+    <p>To positively impact lives through humanitarian support, empowerment programs, and sustainable outreach initiatives.</p>
+</section>
+
+<!-- Donation Ranks -->
+<section class="section">
+    <h2>Donation Rank</h2>
+    <div class="donation-box">
+        <p>🥇 Gold Donor – Major Supporter</p>
+        <p>🥈 Silver Donor – Consistent Giver</p>
+        <p>🥉 Bronze Donor – Faithful Supporter</p>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; <span id="year"></span> Life Impact Outreach. All Rights Reserved.</p>
+</footer>
+
+<!-- Link to JavaScript -->
+<script src="script2.js"></script>
+</body>
+</html>
+
+
